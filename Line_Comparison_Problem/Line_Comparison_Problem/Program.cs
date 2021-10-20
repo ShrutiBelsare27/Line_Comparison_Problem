@@ -21,6 +21,9 @@ namespace Line_Comparison_Problem
             int length2 = toFindLength(x1, y1, x2, y2);
 
             Console.WriteLine(length1.Equals(length2));
+
+            Console.WriteLine("Return value (comparison) =" + length1.CompareTo(length2));
+
         }
         private static int toFindLength(int x1, int y1, int x2, int y2)
         {
